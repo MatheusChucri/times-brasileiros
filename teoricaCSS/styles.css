@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Macondo', cursiva;
+    font-size: 1.25em;
+    font-weight: 700;
+    background-color: #ccc;
+}
+
+.flex-parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+    flex: 0 0 33.333333%;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    padding: 20px;
+}
+
+.palmeiras {
+    background-color: green;
+    color: white;
+}
+
+.santos {
+    background-color: white;
+}
+
+.sao-paulo {
+    background-color: red;
+}
+
+.curintia {
+    background-color: black;
+    color: white;
+}
+
+.bragantino {
+    background-color: gray;
+    color: black;
+}
+
+.best-player {
+    color: yellow;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover {
+    color: pink;
+}
+
+.times {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: chartreuse;
+    text-transform: uppercase;
+}
+
+.times:first-letter {
+    color: cadetblue;    
+}
+
+.times:hover {
+    color:cornflowerblue;
+    font-size: 40px;
+    
+}
+/*
+seletor css
+li:nth-child(4) {
+   color: burlywood;
+}
+*/
